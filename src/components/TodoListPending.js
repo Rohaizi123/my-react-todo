@@ -6,6 +6,19 @@ const TodoListPending = ({ todos, markDoneTodo }) => {
   return (
     <>
       <ul id="sortable" className="list-unstyled">
+        {todos.length === 0 ? (
+          <div>
+            <h5>
+              <b>No Task Added</b>
+            </h5>
+          </div>
+        ) : (
+          <div>
+            <h5>
+              <b>Task Added</b>
+            </h5>
+          </div>
+        )}
         {todos.map((todo, i) => {
           return (
             <li className="ui-state-default" key={i}>

@@ -55,7 +55,8 @@ const Todos = () => {
             <h1>Todos</h1>
             <TodoAdd addTodo={addTodo} />
             <TodoListMarkDone markAllDoneTodo={markAllDoneTodo} />
-            <hr />
+          </div>
+          <div className="todolist not-done">
             <TodoListPending todos={todosPending} markDoneTodo={markDoneTodo} />
           </div>
         </div>

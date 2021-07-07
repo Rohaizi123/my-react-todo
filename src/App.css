@@ -45,7 +45,7 @@ body {
 .todolist {
   background-color: #fff;
   padding: 20px 20px 10px 20px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .todolist h1 {
   margin: 0;
@@ -80,4 +80,11 @@ li.ui-state-default:last-child {
 }
 #checkAll {
   margin-top: 10px;
+}
+#btn1 {
+  margin-right: 10px;
+}
+#checkbox1 {
+  font-size: 12px;
+  color: blue;
 }

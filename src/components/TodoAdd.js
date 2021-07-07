@@ -26,9 +26,14 @@ const TodoAdd = ({ addTodo }) => {
         onChange={updateTitle}
       />
       <br />
-      <button className="btn btn-success" type="submit">
-        Add
-      </button>
+      <div className="d-flex justify-content-center">
+        <button id="btn1" className="btn btn-primary" type="submit">
+          Add
+        </button>
+        <button className="btn btn-primary" type="reset">
+          Reset
+        </button>
+      </div>
     </form>
   );
 };
